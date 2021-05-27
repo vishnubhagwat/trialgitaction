@@ -1,8 +1,8 @@
 name: Add Labels 
 # The events that triggers the workflow
 on:
-  pull_request:
-    types: [merge]
+  pull_request_target:
+    types: [closed]
 
 jobs:
   add-label:
