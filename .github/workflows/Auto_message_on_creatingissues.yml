@@ -14,22 +14,5 @@ jobs:
       with:
         issue-number: ${{tojson(github.event.issue.number)}}
         body: |
-            Hi 😄, @${{ github.actor }} Thanks for creating  issue at makemathseasy, do read and follow the [Code of Conduct](https://github.com/sairish2001/makesmatheasy/blob/main/CODE_OF_CONDUCT.md) and the [Contribution Guidelines](https://github.com/sairish2001/makesmatheasy/blob/main/CONTRIBUTING.md) while contributing.
-            ## Guidelines for code base :
-* Use **1 tab or 4 spaces** indentation.
-* Add the **description** of your algorithm using multi-line comments at the starting of the code.
-* Add **comments** to your code in a **new line** and use single-line comments with **1 tab or 4 spaces** indentation.
-* Try to make your code **user input**.
-* Add **minimum 2 test cases** along with input and output at the end of your code using multi-line comments.
-* Also, add **time** and **space complexity** at the end of your code using multi-line comments.
-
-## Where to upload the files 📂
-
-* Your files should be uploaded inside the **code** folder into the corresponding language folder (For instance, if you wrote code for an Algorithm Implementation in Java, it goes inside the Code/Java folder).
-* **Under no circumstances create new folders within the language folders to upload your code unless specifically told to do so**.
-* Edit the corresponding README.md file to add the link to your code in the corresponding section in **alphabatical order**.[(GitHub Markdown Guide)](https://guides.github.com/features/mastering-markdown/).
-
-
-The value of a strong contribution stays beyond everything and gives you satisfaction 👍.
-
-    
+            Hi 😄, @${{ github.actor }} Thanks for creating  issue at makemathseasy, do read and follow the [Code of Conduct](https://github.com/sairish2001/makesmatheasy/blob/main/CODE_OF_CONDUCT.md) and the [Contribution Guidelines](https://github.com/sairish2001/makesmatheasy/blob/main/CONTRIBUTING.md) while contributing [guidlines](https://user-images.githubusercontent.com/73196470/119923190-e305c700-bf8e-11eb-87f5-117988d8669a.JPG)
+.
